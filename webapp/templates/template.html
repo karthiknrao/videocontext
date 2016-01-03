@@ -1,0 +1,12 @@
+<table style="width:100%">
+  <col width="120">
+  <col width="50">
+  <tr>
+    <td><iframe src={{external_url}} style="width: 70%; height: 1000px"></iframe></td>
+    <td>
+      {% for item in items%}
+      <p style="font-size:15px">{{item[0]}}</p><img src={{item[1]}} style="width:50px;height:50px;"><br>
+      {%endfor%}	
+    </td> 
+  </tr>
+</table>
